@@ -41,4 +41,8 @@ public class TaskEntity {
     public String getTitle() {
         return title;
     }
+
+    public String getDescription() {
+        return Description;
+    }
 }

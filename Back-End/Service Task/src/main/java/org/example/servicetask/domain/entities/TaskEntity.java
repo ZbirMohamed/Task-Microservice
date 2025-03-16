@@ -22,4 +22,23 @@ public class TaskEntity {
     private TaskStatus status;
 
     private Integer userId;
+
+    public TaskEntity(Integer id, String title, String description, TaskStatus status, Integer userId) {
+        this.id = id;
+        this.title = title;
+        Description = description;
+        this.status = status;
+        this.userId = userId;
+    }
+
+    public TaskEntity() {
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
 }
